@@ -3,9 +3,13 @@ import 'package:provider/provider.dart';
 import 'package:statemanagementapp/provider/FavouriteProvider.dart';
 import 'package:statemanagementapp/provider/SliderProvider.dart';
 import 'package:statemanagementapp/provider/count_provider.dart';
+import 'package:statemanagementapp/screens/ExpansionTile.dart';
 import 'package:statemanagementapp/screens/FavouriteScreen.dart';
+import 'package:statemanagementapp/screens/Opacity.dart';
 import 'package:statemanagementapp/screens/SliderExample.dart';
+import 'package:statemanagementapp/screens/StackWidgetExample.dart';
 import 'package:statemanagementapp/screens/countExample.dart';
+import 'package:statemanagementapp/screens/statefull_home.dart';
 import 'package:statemanagementapp/screens/stateless_home.dart';
 
 void main() {
@@ -29,7 +33,11 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: favouriteView(),
+        //home: stateFullExam(),
+        //home: CountView(),
+        //home: StackExample(),
+        //home: ExpansioExample(),
+        home: OpacityExample(),
       ),
     );
   }

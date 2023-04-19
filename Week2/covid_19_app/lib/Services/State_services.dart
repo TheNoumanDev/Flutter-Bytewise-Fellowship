@@ -6,12 +6,13 @@ import 'Utilities/App_urls.dart';
 class WorldStatesViewModel {
   Future<Model> fetchWorldRecords() async {
     final response = await http.get(Uri.parse(AppUrl.worldStatesApi));
-
+    print(response.statusCode.toString());
+    var data = jsonDecode(response.body);
     if (response.statusCode == 200) {
-      var data = jsonDecode(response.body);
       return Model.fromJson(data);
     } else {
-      throw Exception('Error');
+      return Model.fromJson(data);
+      //throw Exception('Error');
     }
   }
 

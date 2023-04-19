@@ -14,11 +14,15 @@ class _HomePageState extends State<HomePage> {
   List<Model1> ModelValues = [];
 
   Future<List<Model1>> getPostApi() async {
+    print("sd");
     final response =
         await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts'));
+    print(response);
     var data = jsonDecode(response.body.toString());
+    print(response);
     if (response.statusCode == 200) {
       for (var i in data) {
+        print("sd");
         ModelValues.add(Model1.fromJson(i));
       }
       return ModelValues;
@@ -31,7 +35,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Rest Apis'),
+        title: const Text('Rest Api'),
       ),
       body: Column(
         children: [

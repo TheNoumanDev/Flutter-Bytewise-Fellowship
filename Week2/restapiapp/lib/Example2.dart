@@ -33,7 +33,7 @@ class _photo_exampleState extends State<photo_example> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(''),
+        title: Text('asas'),
       ),
       body: Column(
         children: [
