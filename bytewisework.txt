@@ -1,0 +1,22 @@
+Week 4:
+	- I learned about the basic structure of the app and how the app actually builds from its root widget to main basic widgets.
+
+Week 5:
+	- Learned about the animations with ticker and with stack using animated positioned. Create splash screen,
+
+Week 6:
+	- Learned about the Advanced UI, the basic layout  widgets to make the UI more beautiful.
+
+Extra: 
+	- I was buzy organiznig the Coding competition for ACM UET Lahore
+	- Then i created a app as semester project where we had to use different concepts such as:
+ - splash screen with animations using getX 
+ - signing signup with firebase and google 
+ - shared preferences 
+ - Firebase CRUD with realtime database 
+ - custom widgets 
+ - take image from gallery and post it on firebase storage 
+ - push notifications 
+ - API CRUD 
+ - SQFLite CRUD 
+ - Video
