@@ -17,3 +17,10 @@ The Flutter Fellowship at ByteWise is a comprehensive program designed to provid
 
 #### Week 4:
 - `Introduction to Widgets` - Explored the basics of widgets in Flutter, how the app actually works, and learned how to create custom widgets using StatelessWidget and StatefulWidget.  [Click Here to see the work](./Week4/intro_to_widgets)
+
+
+#### Week 5: 
+- `Animations` - Explored the basics of animation in flutter and created a app which contained the animations with Getx as state management. [Click Here to see the work](./Week5)
+
+#### Week 6:
+- `Advanced UI` - Here we explored about the different types of layout that are in flutter with which we can make beautiful UI. [Click Here to see the work](./Week6)
