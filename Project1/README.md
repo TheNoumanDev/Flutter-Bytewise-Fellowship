@@ -13,7 +13,7 @@ This is a Voice Assistant application developed in Flutter. The application allo
 
 Here are some screenshots of the application:
 
-![Screenshot 1](Project1/Preview.PNG)
+![Screenshot 1](Preview.PNG)
 
 ## How to Run the Code
 
