@@ -24,3 +24,6 @@ The Flutter Fellowship at ByteWise is a comprehensive program designed to provid
 
 #### Week 6:
 - `Advanced UI` - Here we explored about the different types of layout that are in flutter with which we can make beautiful UI. [Click Here to see the work](./Week6)
+
+#### Project 1:
+- `Voice Assistant With ChatGPT and DALL-E` - Here i created a simple app using using voice assistant package and then show the responses using ChatGPT API and if he asked for a image then generate response from DALL-E API [Click Here to see the work](./Project1)
