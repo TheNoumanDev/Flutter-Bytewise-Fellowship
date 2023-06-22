@@ -27,3 +27,6 @@ The Flutter Fellowship at ByteWise is a comprehensive program designed to provid
 
 #### Project 1:
 - `Voice Assistant With ChatGPT and DALL-E` - Here i created a simple app using using voice assistant package and then show the responses using ChatGPT API and if he asked for a image then generate response from DALL-E API [Click Here to see the work](./Project1)
+
+#### Project 2:
+- `E-Commerce Project` - This is a Flutter e-commerce project that allows users to browse and purchase products. The app includes features like user authentication, product listings, shopping cart functionality, and order placement. It is connected to Firebase for user management and data storage. [Click Here to see the work](./Project2)
